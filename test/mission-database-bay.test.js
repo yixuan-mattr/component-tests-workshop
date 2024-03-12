@@ -31,7 +31,7 @@ beforeEach(() => {
 
 describe('Sensors test', () => {
   // ✅ TASK: Write the following test 👇 to ensure adding an event succeed
-  // 💡 TIP: The event schema is already defined below
+  // 💡 TIP: The event schema is already defined below.
   const getUniqueValue = new Date().getTime();
   test('When adding a valid event, Then should get successful confirmation', async () => {
     // Arrange
